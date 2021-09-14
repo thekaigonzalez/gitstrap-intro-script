@@ -1,0 +1,51 @@
+#!/usr/bin/python3
+
+import os
+import sys
+
+print("""
+
+GITSTRAP: Kai's Software Install tool
+
+1. Installing GitStrap
+
+GitStrap is software that automates the process of installing Kai's Software on your machine.
+It is low on resources and uses tar file format for installing tools.
+
+2. The Content Network
+
+GitStrap uses the base repository
+
+https://thekaigonzalez.github.io/cdn/
+
+NOT mirrors.
+
+When you request a project (lets say Sgit, installed with `gitstrap install sgit`)
+
+It will be requested as
+
+https://thekaigonzalez.github.io/cdn/sgit.tar.gz
+
+Case sensitivity works better in most cases, but case insensitivity works as well, just is not supported.
+
+3. Simplicity
+
+GitStrap contains around 50  lines of code or more, for a simple package manager which is good for Ubuntu Server,
+Arch Linux, and most Linux Distributions.
+
+4. Manual
+
+There's no gitstrap manual pages, but you do have this page to learn off of, which contains ALL of the things you need to know about
+gitstrap.
+
+5. About the Development
+
+This was written on Arch Linux With Python 3.9 installed.
+
+6. Installation? I just see Downloading.
+
+Well, after downloading the .tar.gz file, it will try to extract and run make INSTALL in the folder, which in most of Kai's projects, usually has.
+
+If it doesn't have a Makefile or a Make install (AT UPLOAD), it will be added.
+
+""")
